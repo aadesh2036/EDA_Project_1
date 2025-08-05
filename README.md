@@ -20,17 +20,20 @@ The analysis followed a structured, multi-step process:
 ### 1. What is the breakdown of content on Netflix?
 The analysis shows that Netflix has a significantly larger library of Movies compared to TV Shows, with movies making up nearly 70% of the content in this dataset.
 
-`![Content Breakdown Chart](Screenshot 2025-08-06 001245.png)`
+`![Content Breakdown Chart]<img width="767" height="599" alt="Screenshot 2025-08-06 001245" src="https://github.com/user-attachments/assets/504beb7b-65cb-477f-93da-b3075e7cd561" />
+`
 
 ### 2. Who are the top 5 most common actors on Netflix?
 By processing the multi-valued `cast` column, the analysis identified the actors with the most appearances. This required splitting the string of cast members, handling nulls, and aggregating the counts for each individual actor.
 
-`![Top 5 Actors Chart](Screenshot 2025-08-06 001238.png)`
+`![Top 5 Actors Chart]<img width="995" height="581" alt="Screenshot 2025-08-06 001238" src="https://github.com/user-attachments/assets/b1656ee9-1d01-4cec-80b7-00313dd6b163" />
+)`
 
 ### 3. Which countries produce the most content?
 The analysis of the `country` column, which often contains multiple countries for a single title, revealed the top 10 content-producing nations. The United States is the largest producer by a wide margin, followed by India.
 
-`![Top 10 Countries Chart](Screenshot 2025-08-06 001245.png)`
+`![Top 10 Countries Chart]<img width="1137" height="737" alt="Screenshot 2025-08-06 001226" src="https://github.com/user-attachments/assets/59c5b658-cb37-48d9-9a6e-58f67d7cbdfe" />
+`
 
 ## 💻 Technology Stack
 * Python
